@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kostenloser Wärmepumpen-Check | Lohnt es sich für Sie?</title>
+    <style>
+        /* Grundeinstellungen */
+        :root {
+            --primary-color: #2c3e50; /* Dunkelblau */
+            --accent-color: #27ae60;  /* Grün */
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Hero Bereich */
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        /* Hauptinhalt */
+        .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin-bottom: 60px;
+            align-items: flex-start; /* Wichtig für die Höhe */
+        }
+
+        /* Linke Spalte: Vorteile */
+        .benefits {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .benefits h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .benefit-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefit-list li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        .benefit-list li::before {
+            content: "✓";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            font-size: 1.2rem;
+        }
+
+        .trust-box {
+            background: #e8f6f3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border-left: 5px solid var(--accent-color);
+        }
+
+        /* Rechte Spalte: Formular Container */
+        .form-container {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #bdc3c7;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Mobile Anpassung */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .content-wrapper { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Wärmepumpen-Check</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Ist Ihr Haus bereit für eine Wärmepumpe?</h1>
+            <p>Machen Sie den kostenlosen Check in nur 2 Minuten.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="content-wrapper">
+            
+            <div class="benefits">
+                <h2>Ihre Vorteile auf einen Blick:</h2>
+                <ul class="benefit-list">
+                    <li><strong>Heizkosten senken:</strong> Potenziale sofort erkennen.</li>
+                    <li><strong>Förderung prüfen:</strong> Bis zu 70% Zuschuss möglich.</li>
+                    <li><strong>Zukunftssicher:</strong> Unabhängig von Öl und Gas.</li>
+                    <li><strong>Schnelles Ergebnis:</strong> Persönliche Auswertung in 24h.</li>
+                </ul>
+
+                <div class="trust-box">
+                    <strong>Hinweis:</strong><br>
+                    Füllen Sie das Formular rechts aus. Ihre Daten werden sicher übertragen und nur für die Erstellung Ihrer Analyse verwendet.
+                </div>
+            </div>
+
+            <div class="form-container">
+                <div class="form-header">Jetzt Analyse anfordern 👇</div>
+                <div class="pipedriveWebForms" data-pd-webforms="https://webforms.pipedrive.com/f/6rIdw8rGGoi7wH5w575vh5PI9fdQLV3jsqiEYO0ZyeetFCctNnVAXFRL8xUdnh3y6v"><script src="https://webforms.pipedrive.com/f/loader"></script></div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Dein Handwerksbetrieb. Alle Rechte vorbehalten.</p>
+            <p>
+                <a href="#">Impressum</a> | 
+                <a href="#">Datenschutz</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>window.pipedriveLeadboosterConfig = {base: 'leadbooster-chat.pipedrive.com',companyId: 14563484,playbookUuid: 'e9e92bcd-81fc-4548-af5d-906a1c5f4143',version: 2};(function () {var w = window;if (w.LeadBooster) {console.warn('LeadBooster already exists');} else {w.LeadBooster = {q: [],on: function (n, h) {this.q.push({ t: 'o', n: n, h: h });},trigger: function (n) {this.q.push({ t: 't', n: n });},};}})();</script>
+    <script src="https://leadbooster-chat.pipedrive.com/assets/loader.js" async></script>
+    </body>
+</html>
